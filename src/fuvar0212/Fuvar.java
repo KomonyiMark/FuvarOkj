@@ -23,4 +23,37 @@ public class Fuvar {
 
     }
 
+    public int getTaxi_id() {
+        return taxi_id;
+    }
+
+    public String getIndulas() {
+        return indulas;
+    }
+
+    public int getIdotartam() {
+        return idotartam;
+    }
+
+    public double getTavolsag() {
+        return tavolsag;
+    }
+
+    public double getViteldíj() {
+        return viteldíj;
+    }
+
+    public double getBorravalo() {
+        return borravalo;
+    }
+
+    public String getFizetes_modja() {
+        return fizetes_modja;
+    }
+
+    @Override
+    public String toString() {
+        return "Fuvar{" + "taxi_id=" + taxi_id + ", indulas=" + indulas + ", idotartam=" + idotartam + ", tavolsag=" + tavolsag + ", viteld\u00edj=" + viteldíj + ", borravalo=" + borravalo + ", fizetes_modja=" + fizetes_modja + '}';
+    }
+
 }
